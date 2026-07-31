@@ -5,6 +5,7 @@ metadata:
   labels:
     app: boardgame
 spec:
+  type: LoadBalancer
   selector:
     app: boardgame
   ports:
